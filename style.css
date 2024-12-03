@@ -1,0 +1,221 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background: #000;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header nav .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+header nav .logo span {
+    color: #27ae60;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #27ae60;
+}
+
+header nav .register-btn {
+    background: #27ae60;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+header nav .register-btn:hover {
+    background: #2ecc71;
+}
+
+/* Home Section */
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 10%;
+    background: #f4f4f4;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    color: #27ae60;
+}
+
+.hero-content p {
+    margin: 20px 0;
+}
+
+.hero-content button {
+    background: #27ae60;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.hero-content button:hover {
+    background: #2ecc71;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Sections */
+section {
+    padding: 50px 10%;
+    text-align: center;
+}
+#services{
+    height: 100vh;
+    padding: 20%;
+}
+
+#services h2, #pricing h2 , #contact h2{
+    font-size: 50px;
+}
+#services .service-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.service-cards .card {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    color: #27ae60;
+    font-size: 20px;
+}
+
+.card p {
+    color: #555;
+}
+
+.card i {
+    font-size: 2rem;
+    color: #27ae60;
+}
+
+/* Pricing Section */
+.pricing-plans {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.plan {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.plan h3 {
+    color: #27ae60;
+    margin-bottom: 10px;
+}
+
+.plan .price {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.plan ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.plan ul li {
+    margin: 10px 0;
+}
+
+.plan button {
+    background: #27ae60;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.plan button:hover {
+    background: #2ecc71;
+}
+
+/* Contact Section */
+form input, form textarea, form button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+form button {
+    background: #27ae60;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #2ecc71;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #000;
+    color: white;
+}
